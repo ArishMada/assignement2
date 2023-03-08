@@ -13,6 +13,13 @@ body {
   );
 }
 
+.header {
+    color: #07315c;
+    font-size: 25px;
+    width: 200px;
+    height: 85px;
+}
+
 .todo-app {
   display: flex;
   flex-direction: column;
@@ -21,7 +28,7 @@ body {
   min-height: 600px;
   background: #515b84;
   text-align: center;
-  margin: 50px auto;
+  margin: 25px auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
@@ -122,4 +129,8 @@ h1 {
 
 .edit-icon {
   color: #ffffff;
+}
+
+select {
+    font-size: 20px;
 }

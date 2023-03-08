@@ -56,10 +56,10 @@ function TodoList() {
       <TodoForm onSubmit={addTask} />
       <select value={value} onChange={handleChange}>
           <option value="all">All</option>
+          <option value="active">Active</option>
           <option value="completed">Completed</option>
-          <option value="incompleted">Incompleted</option>
-        </select>
-      <Todo tasks={tasks} completeTask={completeTask} removeTask={removeTask} updateTask={updatedTask}/>
+      </select>
+      <Todo tasks={tasks} completeTask={completeTask} removeTask={removeTask} updateTask={updatedTask} value={value}/>
     </div>
   );
 }
