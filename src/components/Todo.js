@@ -17,6 +17,7 @@ function Todo({ tasks, completeTask, removeTask, updateTask, value}) {
     })
   }
 
+
   function filter(completed, filteringValue){ //filter the values depending on completed or not
     if(filteringValue == "all"){
        return true
@@ -46,7 +47,7 @@ function Todo({ tasks, completeTask, removeTask, updateTask, value}) {
       <div className="icon">
         <CgCloseO onClick={() => removeTask(task.id)} className="delete-icon" />
         <FiEdit
-          onClick={() => setUpdate({ id: task.id, value: task.text })}
+          onClick={() => setUpdate({id: task.id, value: task.text})}
           className="edit-icon"
         />
       </div>
