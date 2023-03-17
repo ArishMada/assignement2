@@ -13,6 +13,86 @@ body {
   );
 }
 
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 800px;
+  min-height: 600px;
+  background: #515b84;
+  text-align: center;
+  margin: 25px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.signupForm {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.signupForm input{
+  size: 50px;
+}
+
+.signup button, .login button{
+  width: 100px;
+  height: 45px;
+  margin: 5px;
+  align-self: center;
+  padding: 15.75px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 0, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.signup button:hover, .login button:hover{
+  width: 100px;
+  height: 45px;
+  margin: 5px;
+  align-self: center;
+  padding: 15.75px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  background: black;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.signup .link, .login .link{
+  color: white;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 800px;
+  min-height: 600px;
+  background: #515b84;
+  text-align: center;
+  margin: 25px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.loginForm {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .header {
     color: #07315c;
     font-size: 25px;
